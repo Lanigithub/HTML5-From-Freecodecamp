@@ -1,3 +1,11 @@
+**** HTML Documents
+All HTML documents must start with a document type declaration: <!DOCTYPE html>.
+The HTML document itself begins with <html> and ends with </html>.
+HTML headings are defined with the <h1> to <h6> tags.
+<h1> defines the most important heading. <h6> defines the least important heading
+The visible part of the HTML document is between <body> and </body>.
+
+************
 <!DOCTYPE html>
 <html>
   <head>
@@ -8,11 +16,21 @@
     </div>
   </body>
 </html>
-
-Introduction to HTML5 ElementsPassed
+***********
+Introduction to HTML5 Elements:
+An HTML element is defined by a start tag, some content, and an end tag
+The HTML element is everything from the start tag to the end tag:
+<tagname>Content goes here...</tagname>
 HTML5 introduces more descriptive HTML tags. These include main, header, footer, nav, video, article, section and others.
-
-<!--  practice on HTML5: -->
+***************
+--Paragraph and line break:
+<p></p> A paragraph always starts on a new line, and is usually a block of text.
+<hr></hr> : The <hr> tag defines a thematic break in an HTML page, and is most often displayed as a horizontal rule.
+The <hr> element is used to separate content (or define a change) in an HTML page:
+<br></br> : The HTML <br> element defines a line break.
+Use <br> if you want a line break (a new line) without starting a new paragraph
+**********
+<!--  practice on HTML: -->
 <h2>CatPhotoApp</h2>
 <main>
   <p>Click here to view more <a href="#">cat photos</a>.</p>
@@ -48,7 +66,7 @@ HTML5 introduces more descriptive HTML tags. These include main, header, footer,
 
 The div element is probably the most commonly used HTML element of all.
 *****
-Create a Form ElementPassed
+Create a Form Element
 You can build web forms that actually submit data to a server using nothing more than pure HTML. You can do this by specifying an action attribute on your form element.
 *****
 Add Images to Your WebsitePassed
@@ -60,3 +78,20 @@ An example of this would be:
 Note that img elements are self-closing.
 
 All img elements must have an alt attribute. The text inside an alt attribute is used for screen readers to improve accessibility and is displayed if the image fails to load.
+****
+Link to External Pages with Anchor ElementsPassed
+You can use a (anchor) elements to link to content outside of your web page.
+
+a elements need a destination web address called an href attribute.
+
+*****Attributes:
+All HTML elements can have attributes
+The href attribute of <a> specifies the URL of the page the link goes to
+The src attribute of <img> specifies the path to the image to be displayed
+The width and height attributes of <img> provide size information for images
+The alt attribute of <img> provides an alternate text for an image
+The style attribute is used to add styles to an element, such as color, font, size, and more
+The lang attribute of the <html> tag declares the language of the Web page
+The title attribute defines some extra information about an element
+
+
